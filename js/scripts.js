@@ -16,6 +16,9 @@ $(document).ready(function(){
 
     $("#story").show();
 
+    $("body").addClass("green-background");
+
+
     event.preventDefault();
   });
 });
