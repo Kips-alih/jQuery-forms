@@ -11,12 +11,12 @@ $(document).ready(function(){
 
     $("#story").show();
 
-    $("body").addClass("green-background");
-
      $("ul#user").text("Hello, where is my story?");
       $("ul#webpage").text("Yes hello, there you have it!");
 
 
     event.preventDefault();
+    $("form").trigger("reset");
+
   });
 });
