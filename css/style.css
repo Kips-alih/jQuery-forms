@@ -1,6 +1,15 @@
+body{
+  background-image: url("../images/story1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(23, 213, 226);
+}
+
 #story{
   display: none;
+  font-size: 18px;
 }
-.green-background{
-  background-color: green;
+
+span{
+  color:white;
 }
